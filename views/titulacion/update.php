@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Titulacion */
 
-$this->title = 'Update Titulacion: {nameAttribute}';
-$this->params['breadcrumbs'][] = ['label' => 'Titulacions', 'url' => ['index']];
+$this->title = 'Actualizar Titulacion:';
+$this->params['breadcrumbs'][] = ['label' => 'Titulaciones', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

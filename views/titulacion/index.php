@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\TitulacionBusqueda */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Titulacions';
+$this->title = 'Titulaciones';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="titulacion-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Titulacion', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Crear Titulacion', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+            
             'nombre',
             'descripcion',
 

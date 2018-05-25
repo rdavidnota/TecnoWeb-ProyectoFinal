@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Requisitos */
 
-$this->title = 'Create Requisitos';
+$this->title = 'Crear Requisitos';
 $this->params['breadcrumbs'][] = ['label' => 'Requisitos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

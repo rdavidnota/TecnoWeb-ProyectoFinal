@@ -38,9 +38,16 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+           // ['label' => 'Home', 'url' => ['/site/index']],
+           // ['label' => 'About', 'url' => ['/site/about']],
+            //['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Programas', 'url' => ['/programas/index']],
+            ['label' => 'Ofertas', 'url' => ['/oferta/index']],
+            ['label' => 'Requisitos', 'url' => ['/requisitos/index']],
+            ['label' => 'Titulacion', 'url' => ['/titulacion/index']],
+            ['label' => 'Modulos', 'url' => ['/modulo/index']],
+            ['label' => 'Modalidad de Pago', 'url' => ['/modalidaddepago/index']],
+            
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -69,9 +76,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; tecnologia web  <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        
     </div>
 </footer>
 

@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Modulo */
 
-$this->title = 'Update Modulo: {nameAttribute}';
+$this->title = 'Actualizar Modulo: ';
 $this->params['breadcrumbs'][] = ['label' => 'Modulos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="modulo-update">
 

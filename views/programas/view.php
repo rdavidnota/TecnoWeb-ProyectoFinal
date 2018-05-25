@@ -17,12 +17,12 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Actualizar', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
         <?=
-        Html::a('Delete', ['delete', 'id' => $model->id], [
+        Html::a('Eliminar', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => '¿Seguro que quieres eliminar este artículo?',
                 'method' => 'post',
             ],
         ])
@@ -47,7 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?php
     
-    echo 'OFERTAS';
+    echo 'OFERTA';
 
     echo GridView::widget([
         'dataProvider' => $ofertas,
@@ -63,7 +63,7 @@ $this->params['breadcrumbs'][] = $this->title;
     ?>
 
     <?php
-     echo 'TITULACIONES';
+     echo 'TITULACION';
 
     echo GridView::widget([
         'dataProvider' => $titulaciones,
@@ -80,7 +80,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     <?php
-     echo 'TITULACIONES';
+     echo 'REQUISITOS';
 
     echo GridView::widget([
         'dataProvider' => $requisitos,
@@ -97,7 +97,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     
     <?php
-     echo 'TITULACIONES';
+     echo 'MODALIDADES DE PAGO';
 
     echo GridView::widget([
         'dataProvider' => $modalidadesPagos,
@@ -116,7 +116,7 @@ $this->params['breadcrumbs'][] = $this->title;
     
     
     <?php
-     echo 'TITULACIONES';
+     echo 'MODULOS';
 
     echo GridView::widget([
         'dataProvider' => $modulos,

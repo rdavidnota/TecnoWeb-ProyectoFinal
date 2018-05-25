@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Titulacion */
 
-$this->title = 'Create Titulacion';
-$this->params['breadcrumbs'][] = ['label' => 'Titulacions', 'url' => ['index']];
+$this->title = 'Crear Titulacion';
+$this->params['breadcrumbs'][] = ['label' => 'Titulaciones', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="titulacion-create">

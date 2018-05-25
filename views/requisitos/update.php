@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Requisitos */
 
-$this->title = 'Update Requisitos: {nameAttribute}';
+$this->title = 'Actializar Requisitos: ';
 $this->params['breadcrumbs'][] = ['label' => 'Requisitos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->Id, 'url' => ['view', 'id' => $model->Id]];
 $this->params['breadcrumbs'][] = 'Update';
